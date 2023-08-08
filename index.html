@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> form management </title>
+  <!-- css link -->
+  <link rel="stylesheet" href="./script/style.css">
+  <!-- bootstrap link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <!-- font awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+  <!-- main form  design  -->
+  <div class="container my-5">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="card shadow">
+          <div class="card-header">
+          <a href="./admin.html" class="btn btn-info"> Admin panel </a>
+          <hr>
+          </div>
+          <div class="card-body">
+            <h2>Search your result </h2>
+            <hr>
+           <form id="Search_result_form" >
+              <div class="my-3">
+                <input type="text" class="form-control" placeholder="Roll" name="roll">
+              </div>
+              <div class="my-3">
+                <input type="text" class="form-control" placeholder="Reg" name="reg">
+              </div>
+              <div class="my-3">
+                <button class="btn btn-success"> Search </button>
+              </div>
+           </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- show student result design  -->
+  <div class="container my-5">
+    <div class="row justify-content-center">
+      <div class="col-md-10">
+        <div class="card shadow">
+          <div class="card-body student_result_sheet">
+       
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- bootstraps link js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <!-- main js link -->
+  <script src="./app/data.js"></script>
+  <script src="./app/functions.js"></script>
+  <script src="./app/search.js"></script>
+</body>
+</html>
+
+
+
+
+
+
